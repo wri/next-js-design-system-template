@@ -15,7 +15,17 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.app-container {
+  margin-left: 364px;
+  transition: margin-left 0.1s;
+  padding: 20px;
+}
+
+.app-container.sidebar-closed {
+  margin-left: 64px;
+  transition: margin-left 0.1s;
 }
