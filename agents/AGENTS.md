@@ -12,11 +12,14 @@ The setup script distributes this file to the correct location for each IDE.
 
 Because the library ships its own styles and design tokens, **do not override component styles with custom CSS**. Visual consistency across products depends on this.
 
-| Resource    | URL                                                              |
-| ----------- | ---------------------------------------------------------------- |
-| Storybook   | https://wri.github.io/wri-design-systems/                        |
-| npm         | https://www.npmjs.com/package/@worldresources/wri-design-systems |
-| Style guide | https://zeroheight.com/4221801da                                 |
+| Resource          | URL                                                                      |
+| ----------------- | ------------------------------------------------------------------------ |
+| Storybook         | https://wri.github.io/wri-design-systems/                                |
+| GitHub repo       | https://github.com/wri/wri-design-systems                                |
+| GitHub README     | https://github.com/wri/wri-design-systems#readme                         |
+| Component READMEs | `src/components/<Category>/<ComponentName>/README.md` in the GitHub repo |
+| npm               | https://www.npmjs.com/package/@worldresources/wri-design-systems         |
+| Style guide       | https://zeroheight.com/4221801da                                         |
 
 ---
 
@@ -74,7 +77,7 @@ Use it as fallback when a component is not in the WRI DS.
 
 ### Level 1 — WRI Design System
 
-Check the [Storybook](https://wri.github.io/wri-design-systems/) or query the Storybook MCP first.
+Check the [Storybook](https://wri.github.io/wri-design-systems/) or query the Storybook MCP first. For detailed props and usage notes, also check the component's individual README in the [GitHub repo](https://github.com/wri/wri-design-systems) at `src/components/<Category>/<ComponentName>/README.md` — for example: [`Panel/README.md`](https://github.com/wri/wri-design-systems/blob/main/src/components/Containers/Panel/README.md).
 
 ```tsx
 // ✅ Correct
@@ -210,6 +213,7 @@ const MyButton = () => <button style={{ background: "blue" }}>Click</button>
 | Question                                      | Where to look                                                              |
 | --------------------------------------------- | -------------------------------------------------------------------------- |
 | Does a WRI DS component exist?                | [Storybook](https://wri.github.io/wri-design-systems/) or Storybook MCP    |
+| Detailed props / usage for a WRI DS component | Component README in GitHub: `src/components/<Category>/<Name>/README.md`   |
 | What props does a Chakra component accept?    | Chakra MCP → `get_component_props`                                         |
 | What design tokens are available?             | Chakra MCP → `get_theme` or [Zeroheight](https://zeroheight.com/4221801da) |
 | Which color scales/steps are overridden here? | Read `src/components/Providers/index.tsx` — that is the source of truth    |
