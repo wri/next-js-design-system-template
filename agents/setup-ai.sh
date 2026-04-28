@@ -34,6 +34,11 @@ install_file() {
 # CLAUDE.md is a copy for Claude Code (reads both AGENTS.md and CLAUDE.md).
 install_file "$SCRIPT_DIR/CLAUDE.md" "Claude Code (CLAUDE.md)"
 
+# ── Gemini ─────────────────────────────────────────────────────
+install_file "$SCRIPT_DIR/GEMINI.md" "Gemini"
+install_file "$SCRIPT_DIR/.geminirules" "Gemini (rules)"
+
+
 # ── Cursor ─────────────────────────────────────────────────────
 if [ -d "$HOME/.cursor" ] || [ -d "/Applications/Cursor.app" ] || command -v cursor &>/dev/null; then
   install_file "$SCRIPT_DIR/.cursor/rules" "Cursor"

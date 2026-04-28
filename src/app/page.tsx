@@ -1,24 +1,17 @@
 'use client'
 
-import LayerSidebar from '@/components/demo/LayerSidebarDemo'
+import ButtonDemo from '@/components/demo/ButtonDemo'
 
 export default function Home() {
   return (
     <div className='App'>
       <div className='app-container'>
-        <h1 style={{ marginBottom: '20px' }}>Welcome to WRI OS (TEST - NEXT)</h1>
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'flex-start',
-            flexWrap: 'wrap',
-            gap: 25,
-          }}
-        >
-          Content
-        </div>
-        <LayerSidebar />
+        <h1 style={{ marginBottom: '20px' }}>
+          Welcome to WRI OS (TEST - NEXT)
+        </h1>
+
+        <ButtonDemo />
       </div>
     </div>
-  );
+  )
 }

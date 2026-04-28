@@ -109,6 +109,11 @@ const mcpVSCode = {
 // Claude Code — always write CLAUDE.md (Claude Code reads both AGENTS.md and CLAUDE.md)
 installFile(join(ROOT, "CLAUDE.md"), "Claude Code");
 
+// Gemini — always write GEMINI.md and .geminirules for Gemini-based agents
+installFile(join(ROOT, "GEMINI.md"), "Gemini");
+installFile(join(ROOT, ".geminirules"), "Gemini (rules)");
+
+
 // Cursor
 const hasCursor =
   pathExists(HOME, ".cursor") ||
