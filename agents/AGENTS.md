@@ -132,15 +132,15 @@ The project's `ChakraProvider` in `src/components/Providers/index.tsx` is the **
 
 **Do not invent, assume, or guess color token names or values.** The provider only extends the following palette scales:
 
-| Scale        | Defined steps                     | Notes                                     |
-| ------------ | --------------------------------- | ----------------------------------------- |
-| `neutral`    | 300, 500, 700                     | Overrides Chakra defaults                 |
-| `primary`    | 100, 200, 500, 600, 700, 800, 900 | Overrides Chakra defaults                 |
-| `secondary`  | 500                               | Overrides Chakra defaults                 |
-| `success`    | _(none currently overridden)_     | Falls back to WRI DS `designSystemStyles` |
-| `warning`    | _(none currently overridden)_     | Falls back to WRI DS `designSystemStyles` |
-| `error`      | _(none currently overridden)_     | Falls back to WRI DS `designSystemStyles` |
-| `accessible` | _(none currently overridden)_     | Falls back to WRI DS `designSystemStyles` |
+| Scale        | Defined steps                               | Notes                                     |
+| ------------ | ------------------------------------------- | ----------------------------------------- |
+| `neutral`    | 100, 200, 300, 400, 500, 600, 700, 800, 900 | Overrides Chakra defaults                 |
+| `primary`    | 100, 200, 300, 400, 500, 600, 700, 800, 900 | Overrides Chakra defaults                 |
+| `secondary`  | 100, 200, 300, 400, 500, 600, 700, 800, 900 | Overrides Chakra defaults                 |
+| `success`    | 100, 200, 300, 500, 900                     | Falls back to WRI DS `designSystemStyles` |
+| `warning`    | 100, 200, 300, 500, 900                     | Falls back to WRI DS `designSystemStyles` |
+| `error`      | 100, 200, 300, 500, 900                     | Falls back to WRI DS `designSystemStyles` |
+| `accessible` | 100, 200, 300, 500, 900                     | Falls back to WRI DS `designSystemStyles` |
 
 For scales marked as "not overridden", their values come from the WRI DS `designSystemStyles` system context — **do not guess these values**. Query the Storybook MCP to verify what values are available.
 
