@@ -6,14 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "setup:ai": "node agents/setup-ai.mjs",
-    "postinstall": "node agents/setup-ai.mjs"
+    "lint": "next lint"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.8.1",
     "@emotion/react": "^11.14.0",
-    "@worldresources/wri-design-systems": "^2.191.6",
+    "@worldresources/wri-design-systems": "^2.191.10",
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

@@ -1084,10 +1084,10 @@
     "@typescript-eslint/types" "8.59.1"
     eslint-visitor-keys "^5.0.0"
 
-"@worldresources/wri-design-systems@^2.191.6":
-  version "2.191.6"
-  resolved "https://registry.yarnpkg.com/@worldresources/wri-design-systems/-/wri-design-systems-2.191.6.tgz#9a2cf841a70e8a6ead7c140362a3b04fb5cfd071"
-  integrity sha512-Z1gOV1GoAAywfmqt/C7eoXhQhm9S01dYOTiQAE6tNqKIgx9m3dgpdVTX9He2XZwPy2QV4RqM0/Xz7Yh3QuEiFw==
+"@worldresources/wri-design-systems@^2.191.10":
+  version "2.191.10"
+  resolved "https://registry.yarnpkg.com/@worldresources/wri-design-systems/-/wri-design-systems-2.191.10.tgz#b7ae229d1546bfa3c1d30fe5fa70d06b561b9f09"
+  integrity sha512-b7+rfcSzIGu3Q5xETSv331oOpHkGRe5mo7ECqjpaXIE+UczS+lJFQLF4nFFPhHu6H31KS8hd2Op3h/qc4Q35Yg==
 
 "@zag-js/accordion@0.82.2":
   version "0.82.2"
