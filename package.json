@@ -9,21 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/react": "^3.8.1",
+    "@chakra-ui/react": "^3.34.0",
     "@emotion/react": "^11.14.0",
-    "@worldresources/wri-design-systems": "^2.191.10",
-    "next": "15.1.7",
+    "@worldresources/wri-design-systems": "2.185.0",
+    "next": "15.5.15",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4.2.4",
+    "@testing-library/jest-dom": "^6.9.1",
     "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "eslint": "^10.2.1",
-    "eslint-config-next": "^16.2.4",
+    "eslint-config-next": "15.5.15",
+    "jest": "^30.3.0",
     "postcss": "^8.5.12",
     "prettier": "^3.8.3",
     "prettier-plugin-tailwindcss": "^0.8.0",
