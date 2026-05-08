@@ -1,7 +1,7 @@
 @import 'tailwindcss' important;
 
 @theme {
-  --font-base:
+  --font-sans:
     var(--font-acumin-pro), ui-sans-serif, system-ui, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
@@ -80,7 +80,7 @@
 }
 
 body {
-  font-family: var(--font-base);
+  font-family: var(--font-sans);
   padding: 20px;
 }
 
