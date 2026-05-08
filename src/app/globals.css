@@ -80,7 +80,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-acumin-pro), Arial, Helvetica, sans-serif;
   padding: 20px;
 }
 
